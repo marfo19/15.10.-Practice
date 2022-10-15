@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 50px;
+        }
+        
+        a {
+            margin-bottom: 30px;
+        }
+        
+        fieldset {
+            margin: 15px 0;
+        }
+        
+        label,
+        legend {
+            margin-left: 10px;
+        }
+        
+        #text,
+        #number {
+            margin: 10px 0;
+            border: 1px solid #d3d3d3;
+            height: 20px;
+        }
+        
+        .reward>input {
+            margin-left: 10px;
+            margin-bottom: 10px;
+            height: 20px;
+            border: 1px solid #d3d3d3;
+        }
+        
+        .images {
+            padding: 10px 0;
+        }
+        
+        textarea {
+            margin: 10px 10px;
+        }
+    </style>
+    <title>Create a New Poster</title>
+</head>
+
+<body>
+    <a href="../index.html">Back To Homepage</a>
+    <form action="">
+        <fieldset>
+            <legend>Top Headline</legend>
+            <label for="headline_text">Headline Text:</label>
+            <input type="text" name="" id="text" />
+        </fieldset>
+        <fieldset class="images">
+            <legend>Images</legend>
+            <label for="image1">Image 1:</label>
+            <input type="file" name="" id="image1" />
+            <br />
+            <label for="image2">Image 2:</label>
+            <input type="file" name="" id="image2" />
+            <br />
+            <label for="image3">Image 3:</label>
+            <input type="file" name="" id="image3" />
+        </fieldset>
+        <fieldset>
+            <legend>Reward</legend>
+            <label for="number">Reward money:</label>
+            <input type="number" name="number" id="number" />
+        </fieldset>
+        <fieldset class="reward">
+            <legend>Reward</legend>
+            <label for="alieases">Aliases:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="birth">Birth:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="hair">Hair:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="eyes">Eyes:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="height">Height:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="weight">Weight:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="sex">Sex:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="idnumber">ID Number:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label for="occupation">Occupation:</label>
+            <br />
+            <input type="text" />
+        </fieldset>
+        <fieldset>
+            <legend>Remarks</legend>
+            <textarea name="remarks" id="remarks" cols="80" rows="10" placeholder="Remarks text"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Caution</legend>
+            <textarea name="remarks" id="remarks" cols="80" rows="10" placeholder="Caution text"></textarea>
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Create a poster</button>
+    </form>
+</body>
+
+</html>
