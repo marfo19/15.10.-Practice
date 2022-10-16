@@ -38,5 +38,5 @@ if (b === 0 && operation == "/") {
 } else if (operation == "-") {
     console.log(a + " - " + b + " = " + a - b);
 } else {
-    console.log("Need numbers for arithmethic operations!");
+    console.log("Please enter a number");
 }
